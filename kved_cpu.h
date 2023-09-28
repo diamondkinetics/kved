@@ -25,5 +25,10 @@ void kved_cpu_critical_section_enter(void);
 void kved_cpu_critical_section_leave(void);
 
 /**
-@}
-*/
+ @brief Initialize any support for critical regions for kved. 
+ */
+void kved_cpu_init(void);
+
+/**
+ @}
+ */

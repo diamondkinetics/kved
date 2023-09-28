@@ -800,6 +800,7 @@ void kved_dump(void)
 
 void kved_init(void)
 {
+    kved_cpu_init();
 	kved_flash_init();
 
 	kved_sector_consistency_check();

@@ -22,3 +22,7 @@ __weak void kved_cpu_critical_section_enter(void)
 __weak void kved_cpu_critical_section_leave(void)
 {   
 }
+
+__weak void kved_cpu_init(void)
+{   
+}
